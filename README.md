@@ -17,6 +17,7 @@ Table of contents:
 
 * [Model](#model)
 * [Pretrained checkpoints](#pretrained-checkpoints)
+* [Datasets](#datasets)
 * [Training Code Colab](#colabs)
 * [Reference](#reference)
 
@@ -33,6 +34,10 @@ The performances:
 ## Pretrained checkpoints
 
 Pre-trained checkpoints of the proposed query embedding network are specified in [configuration files](https://github.com/melihsrn/OWL-ViT_with_enhanced_query_embedding_network/query_embed_network/). 
+
+## Datasets
+
+You can reach through these links: [Object Detection Dataset](https://drive.google.com/drive/folders/1PseY_87Ks8PrSx9aP5HQxHOE2UYw_tY0?usp=sharing) and [Digit Detection Dataset](https://drive.google.com/drive/folders/1tjb7aveWefg6bZhMZHffMYw-Tqp3EOQx?usp=sharing)
 
 ## Training Code Colab
 
