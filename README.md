@@ -1,17 +1,17 @@
-OWL-ViT: Open-World Object Detection with Vision Transformers
+Image-Guided Object Detection using OWL-ViT and Enhanced Query Embedding Extraction
 ==
-<img src="data/architecture.png" alt="Proposed Architecture" width="600"/>
+<img src="data/proposed_architecture.png" alt="Proposed Architecture" width="600"/>
 
-OWL-ViT is an **image-guided object detector**, as well as an **open-vocabulary object detector**. Given an image and a visual query, it finds objects matching that query in the image. OWL-ViT reaches state-of-the-art performance on both tasks, e.g. **44.6% zero-shot LVIS APr** with a OWLv2 ViT-L/14 backbone.
+OWL-ViT is an **image-guided object detector**, as well as an **open-vocabulary object detector**. Given an image and a visual query, it finds objects matching that query in the image.
 
 [[OWL-ViT+CNN Paper]](https://arxiv.org/abs/2306.09683)
-[[Training Code Colab]](https://colab.research.google.com/github/google-research/scenic/blob/main/scenic/projects/owl_vit/notebooks/OWL_ViT_minimal_example.ipynb)
+[[Training Code Colab]](https://colab.research.google.com/drive/1wsms9mcqSTqUJCNuM4AyMZBrXwiz2BGn?usp=drive_link)
 
 
 ## Contents
 Below, we provide pretrained checkpoints, example training code in Colab.
 
-To get started, check out the [Training Code Colab](https://colab.research.google.com/github/google-research/scenic/blob/main/scenic/projects/owl_vit/notebooks/OWL_ViT_minimal_example.ipynb), which shows all steps necessary for running training process, including installing necessary libraries, instantiating a model, loading a checkpoint, preprocessing input images, getting predictions, and saving them.
+To get started, check out the [Training Code Colab](https://colab.research.google.com/drive/1wsms9mcqSTqUJCNuM4AyMZBrXwiz2BGn?usp=drive_link), which shows all steps necessary for running training process, including installing necessary libraries, instantiating a model, loading a checkpoint, preprocessing input images, getting predictions, and saving them.
 
 Table of contents:
 
@@ -32,11 +32,11 @@ The performances:
 
 ## Pretrained checkpoints
 
-Pre-trained checkpoint of the proposed query embedding network is specified in [configuration files](https://github.com/google-research/scenic/blob/main/scenic/projects/owl_vit/configs). 
+Pre-trained checkpoints of the proposed query embedding network are specified in [configuration files](https://github.com/melihsrn/OWL-ViT_with_enhanced_query_embedding_network/query_embed_network). 
 
 ## Training Code Colab
 
-The [Training Code Colab](https://colab.research.google.com/github/google-research/scenic/blob/main/scenic/projects/owl_vit/notebooks/OWL_ViT_minimal_example.ipynb) shows all steps necessary for running training process, including installing necessary libraries, instantiating a model, loading a checkpoint, preprocessing input images, getting predictions, and saving them.
+The [Training Code Colab](https://colab.research.google.com/drive/1wsms9mcqSTqUJCNuM4AyMZBrXwiz2BGn?usp=drive_link) shows all steps necessary for running training process, including installing necessary libraries, instantiating a model, loading a checkpoint, preprocessing input images, getting predictions, and saving them. You just need to change the locations according to the locations in your local environment.
 
 ## Reference
 If you use OWL-ViT+CNN, please cite the paper as appropriate:
