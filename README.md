@@ -21,7 +21,7 @@ Table of contents:
 * [Training Code Colab](#colabs)
 * [Reference](#reference)
 
-## Model versions
+## Model
 
 ### OWL-ViT+CNN
 The original OWL-ViT model was introduced in May 2022 and is described in [Simple Open-Vocabulary Object Detection with Vision Transformers](https://arxiv.org/abs/2205.06230). In June 2023, we introduced an improved architecture and training recipe that uses self-training on Web image-text data as described in [Scaling Open-Vocabulary Object Detection](https://arxiv.org/abs/2306.09683). In this study, a new query embedding extractor network is defined to adapt the model for the given task better.
