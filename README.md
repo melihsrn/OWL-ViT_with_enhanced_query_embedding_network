@@ -4,7 +4,7 @@ Image-Guided Object Detection using OWL-ViT and Enhanced Query Embedding Extract
 
 OWL-ViT is an **image-guided object detector**, as well as an **open-vocabulary object detector**. Given an image and a visual query, it finds objects matching that query in the image.
 
-[[OWL-ViT+CNN Paper]](https://drive.google.com/file/d/1ibMQd_2sX4vMGqMYEJlZgOaKHovTR7qj/view?usp=sharing)
+[[OWL-ViT+CNN Paper]](https://zenodo.org/records/10938342)
 [[Training Code Colab]](https://colab.research.google.com/drive/1wsms9mcqSTqUJCNuM4AyMZBrXwiz2BGn?usp=drive_link)
 
 
