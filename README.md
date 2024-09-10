@@ -33,7 +33,7 @@ The performances:
 
 ## Pretrained checkpoints
 
-Pre-trained checkpoints of the proposed query embedding network are specified in [configuration files](https://github.com/melihsrn/OWL-ViT_with_enhanced_query_embedding_network/query_embed_network/). 
+Pre-trained checkpoints of the proposed query embedding network are specified in [configuration files](https://github.com/melihsrn/OWL-ViT_with_enhanced_query_embedding_network/tree/main/query_embed_network). 
 
 ## Datasets
 
